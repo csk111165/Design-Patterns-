@@ -5,7 +5,7 @@ class Singleton
 {
 
     public:
-        static Singleton* instance;
+        static Singleton* instance;//avoid using member function as public
         static Singleton* getInstance();
         void disp();
     private:
